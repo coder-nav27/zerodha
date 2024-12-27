@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zerodha Clone</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        header img {
+            height: 40px;
+        }
+
+        header nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        header nav a:hover {
+            color: #005bbb;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            color: #666;
+            margin: 20px 0;
+        }
+
+        .hero button {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #005bbb;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .hero button:hover {
+            background-color: #004a99;
+        }
+
+        .dashboard-preview {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .dashboard-preview img {
+            margin-bottom: 60px;
+
+            max-height: 45vh;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f8f8;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo (1).svg" alt="Zerodha Logo">
+        <nav>
+            <a href="https://signup.zerodha.com/">Signup</a>
+            <a href="https://zerodha.com/about/">About</a>
+            <a href="https://zerodha.com/products/">Products</a>
+            <a href="https://zerodha.com/charges/#tab-equities">Pricing</a>
+            <a href="https://support.zerodha.com/">Support</a>
+        </nav>
+    </header>
+
+    <section class="dashboard-preview">
+      <img src="landing.png" alt="Dashboard Preview">
+    </section>
+
+    <section class="hero">
+        <h1>Invest in everything</h1>
+        <p>Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.</p>
+        <button onclick="document.location='https://zerodha.com/open-account'">Sign up for free</button>
+    </section>
+
+    
+
+    <footer>
+        &copy; 2024 Zerodha. All rights reserved.
+    </footer>
+</body>
+</html>
